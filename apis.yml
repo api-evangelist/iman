@@ -1,7 +1,17 @@
 aid: iman
 name: Iman
-description: Iman is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  IMAN (mobile app IMANUM, operated by IMAN CAPITAL LTD) is a halal fintech and
+  Islamic-finance super-app serving Muslim-majority, largely unbanked markets in
+  Central Asia. Headquartered in Uzbekistan and expanding into Kazakhstan,
+  Pakistan, South Asia and MENA, IMAN bundles Sharia-compliant financial products
+  into a single consumer app: IMAN Invest, a faith-based investing platform where
+  users and IMAN enter Mudarabah contracts to finance real trade in goods, and
+  IMAN Pay, an interest-free buy-now-pay-later / point-of-sale installment
+  product for the previously unbanked. All services are certified compliant with
+  Islamic finance principles by scholars including the Muslim Board of Uzbekistan.
+  IMAN was the first Central Asian startup backed by 500 Global and has raised
+  over $6M from strategic and institutional investors.
 url: https://raw.githubusercontent.com/api-evangelist/iman/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,34 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Islamic Finance
+- Halal Investing
+- Sharia-Compliant
+- BNPL
+- Investing
+- Payments
+- Financial Services
+- Mobile Banking
+- Central Asia
+- Uzbekistan
+image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/37/34/9037340a-f762-e529-921e-1a1c5b6b29da/AppIcon-prod-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +54,27 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/iman-domain-security.yml
 - type: Website
   url: https://imaninvest.com
+- type: GettingStarted
+  name: How IMAN Works
+  url: https://imaninvest.com/en/how-it-works
+- type: Support
+  name: FAQ
+  url: https://imaninvest.com/en/question
+- type: GooglePlay
+  name: IMAN Invest on Google Play
+  url: https://play.google.com/store/apps/details?id=udevs.iman_invest
+- type: AppStore
+  name: IMANUM on the App Store
+  url: https://apps.apple.com/us/app/imanum/id1625307273
+- type: LinkedIn
+  name: IMAN on LinkedIn
+  url: https://www.linkedin.com/company/imaninvest
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
