@@ -55,7 +55,7 @@ tags:
 - Buy Now Pay Later
 - Investing
 - Payments
-- Financial-Services
+- Financial Services
 - Mobile Banking
 - Central Asia
 - Uzbekistan
@@ -72,6 +72,7 @@ tags_raw:
 - Mobile Banking
 - Central Asia
 - Uzbekistan
+- Financial-Services
 image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/37/34/9037340a-f762-e529-921e-1a1c5b6b29da/AppIcon-prod-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg
 apis: []
 maintainers:
